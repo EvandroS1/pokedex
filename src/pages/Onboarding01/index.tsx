@@ -1,4 +1,5 @@
-import Button from "@mui/material/Button";
+
+import BlueButton from "@/components/utils/BlueButton";
 import React from "react";
 
 
@@ -26,12 +27,7 @@ export default function onBoarding01() {
             </section>
           </div>
           <div className="mb-12">
-            <Button
-              variant="contained"
-              className="rounded-full w-full h-14 normal-case text-lg"
-            >
-              Continuar
-            </Button>
+            {BlueButton('Continuar')}
           </div>
         </div>
         </>
