@@ -1,7 +1,6 @@
 // pages/_app.tsx
-
+import '../app/global.css'
 import { AppProps } from "next/app";
-import "../app/globals.css";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 
