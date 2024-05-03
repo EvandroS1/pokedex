@@ -1,27 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image"; 
 import {  ChevronLeft } from "lucide-react";
 import BlueButton from "@/components/utils/BlueButton";
-import { Button } from "@/components/ui/button";
 import TransparentButton from "@/components/utils/TransparentButton";
 
-export default function LoginEscolha() { 
+export default function Cadastro() { 
   return (
       <div className="h-screen flex flex-col gap-4 text-center justify-center">
-        <header className="justify-center flex">
-          <div className="flex gap-36 py-5 absolute top-5 left-0">
-            <ChevronLeft />
-          <h1 className="font-semibold text-base ">Entrar</h1>
+        <header className="justify-center items-center relative flex flex-col">
+            <div className="absolute top-0 left-0">
+              <ChevronLeft />
+            </div>
+          <div className="flex justify-center items-center pb-5 w-full">
+          <h1 className="font-semibold text-base ">Criar conta</h1>
           </div>
         <img
                 width={280}
-                src="assets/EscolhaLogin/Group_39.png"
+                src="assets/cadastro/Group_39.png"
                 alt="characters"
               />
         </header>
         <div className="">
-            <h2 className="text-3xl  font-semibold"> Que bom te ver aqui novamente!</h2>
+            <h2 className="text-3xl  font-semibold">Falta pouco para explorar esse mundo!</h2>
             <p className=" text-gray-600 mt-2">Como deseja se conectar?</p>
           <div className="flex flex-col gap-3 mt-14">
           
